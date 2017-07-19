@@ -1,0 +1,10 @@
+- ¿DE donde ha cogido la plantilla?
+- captura de plantilla original 
+- nuevos elementos insertados en BOOTSTRAP
+- Modificaciones Elementos de mi plantilla
+- posibilidades - css
+		- insertar video
+		- pase dispositivas
+		- formularios
+		- redes sociales
+		- insercion comentarios

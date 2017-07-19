@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Biología Marina</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Pacifico" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
+    <!--favicon-->
+    <link rel="icon" href="img/1485127456_vehicles-23.png">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="glyphicon glyphicon-th-list"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i id="imagen"><img src="img/Anchor.png"></i> <span class="light">Start</span> The Magic world
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                      <a href="#about" class="page-scroll" >Informacion </a>
+         
+                    </li>
+                    <li>
+                        <a class="page-scroll " href="contenido/informacion.html">++Información</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll " href="#image">Imagenes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#social">Redes Sociales</a>
+                    </li>
+                    <li>
+                        <div class="col-1-2">
+                            <form class="navbar-form navbar-left" role="search">
+                                  <div class="form-group">
+                                    <input id="buscar" type="text" class="form-control" placeholder="Search">
+                                  </div>
+                                  <button id="button" type="submit" class="btn btn-primary">Buscar</button>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="titulo">Biologia Marina</h1>
+                        <p class="intro-text">La ciencia que estudia los seres vivos que habitan los ecosistemas marinos. </p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-left">
+        <div class="row">
+            <div class="col-md-6">
+                    <h2 >información</h2>
+                    <p id="contenido">La biología marina es la ciencia que estudia los seres vivos que habitan los ecosistemas marinos. Así como la conservación de la vida marina, tanto de sus elementos biológicos, como su flora y fauna, también de sus elementos de orden físico y químico del medio acuático. Su objetivo es el mantenimiento integral de todas las especies marinas y mejora de sus recursos.
+
+                    Más que una ciencia en sí misma se trata de un sistema de aplicación de otras ciencias tales como la geología, la geografía, la química, la física y la biología, indispensables para el estudio global y correlacionado de los fenómenos que caracterizan el ambiente marino. La oceanografía se subdivide en tres ramas principales: Oceanografía física, oceanografía química y oceanografía biológica. Los océanos cubren el 71 % de la corteza terrestre. Incluye desde el plancton microscópico, hasta cetáceos como las ballenas. Se estima que sólo se ha investigado, hasta ahora, un 5 % de la vida en los océanos.
+                    </p>            
+            </div>
+              <div id ="video">
+                <video class="col-md-6" src="video/video.mp4" controls autoplay muted></video>
+            </div>          
+        </div>
+    </section>
+
+    <!-- slider Section -->
+    <section id="image">
+            <div class="container">
+                  <div class=" row ">
+                        <div class="col-md-12 col-sm-6 ">
+                          <div class="column thumbnail">
+                            <img src="./img/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                          </div>
+                          <div class="column  thumbnail">
+                            <img src="./img/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                          </div>                      
+                          <div class="column  thumbnail">
+                            <img src="./img/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                          </div>
+   
+                          <div class="column  thumbnail">
+                            <img src="./img/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                          </div>
+                        </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="column thumbnail">
+                            <img src="./img/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                          </div>
+                        <div class="column thumbnail">
+                            <img src="./img/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                          </div>
+                        <div class="column thumbnail">
+                            <img src="./img/7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                          </div>
+                        <div class="column thumbnail">
+                            <img src="./img/8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                          </div>
+                     </div>
+                    </div>
+                    </div>
+
+                        <div id="myModal" class="modal">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content1">
+                            <div class="mySlides">
+                              <div class="numbertext">1 / 8</div>
+                                <img src="./img/1.jpg" style="width:100% ">
+                            </div>
+
+                            <div class="mySlides">
+                              <div class="numbertext">2 / 8</div>
+                                <img src="./img/2.jpg" style="width:100% ">
+                            </div>
+
+                            <div class="mySlides">
+                              <div class="numbertext">3 / 8</div>
+                                <img src="./img/3.jpg" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                              <div class="numbertext">4 / 8</div>
+                                <img src="./img/4.jpg" style="width:100%">
+                            </div>
+                              <div class="mySlides">
+                              <div class="numbertext">5 / 8</div>
+                                <img src="./img/5.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">6 / 8</div>
+                                <img src="./img/6.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">7 / 8</div>
+                                <img src="./img/7.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">8 / 8</div>
+                                <img src="./img/8.jpg" style="width:100%">
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <div class="caption-container">
+                              <p id="caption"></p>
+                            </div>
+                        <div class="col-md-12 col-sm-6">
+                            <div class="column2 thumbnail">
+                              <img class="demo" src="./img/1.jpg" onclick="currentSlide(1)" >
+                            </div>
+
+                            <div class="column2 thumbnail">
+                              <img class="demo" src="./img/2.jpg" onclick="currentSlide(2)" >
+                            </div>
+
+                            <div class="column2 thumbnail">
+                              <img class="demo" src="./img/3.jpg" onclick="currentSlide(3)" >
+                            </div>
+
+                            <div class="column2 thumbnail">
+                              <img class="demo" src="./img/4.jpg" onclick="currentSlide(4)" >
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6">
+                              <div class="column2 thumbnail">
+                              <img class="demo" src="./img/5.jpg" onclick="currentSlide(5)" >
+                            </div>
+                              <div class="column2 thumbnail">
+                              <img class="demo" src="./img/6.jpg" onclick="currentSlide(6)" >
+                            </div>
+                            <div class="column2 thumbnail">
+                              <img class="demo" src="./img/7.jpg" onclick="currentSlide(7)" >
+                            </div>
+                            <div class="column2 thumbnail">
+                              <img class="demo" src="./img/8.jpg" onclick="currentSlide(8)" >
+                            </div>
+                        </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-us text-center">
+        <div class="fields">
+            <div class="Container">
+                <div class="row">
+                    <i class="glyphicon glyphicon-envelope fa-5x" ></i>
+                    <h1>Tell us what you fell</h1>
+                    <p class="light">Fell Free To Contact Us Anytime</p>
+                <!--Start Contact Form -->
+                    <form role="form" method="post" action="mailto:biologiamarina@hotmail.com">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control input-lg" placeholder="E-mail" >
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control input-lg" placeholder="Telefono">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control input-lg" placeholder="Tu mensaje ..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control input-lg">
+                                    <option >Sevilla</option>
+                                    <option >Madrid</option>
+                                    <option >Barcelona</option>
+                                    <option >Malaga</option>
+                                    <option >Murcia</option>
+                                    <option >Jaen</option>
+                                </select>
+                            </div>
+                        </div>
+                             <div class="form-group">
+                                    <button  type="button" class="btn btn-danger btn-lg btn-">Enviar</button>
+                                </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+                
+                
+   
+    </section>
+
+    <!-- informacion  Section -->
+    <div id="tel">
+        <div class="container text-left">
+          <h3>Informacion de contacto</h3>
+          <div class="space"></div>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x iconos"></i>Calle Esclava del Señor<br>
+            41013 Sevilla</p>
+          <div class="space"></div>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x iconos"></i>955 62 28 44</p>
+            <div class="col-md-6 col-xs-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.2468626803566!2d-5.9656854850585805!3d37.360335279837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126e6020af0c1b%3A0xc09d3a86dfcdcad1!2sCalle+Esclava+del+Se%C3%B1or%2C+41013+Sevilla!5e0!3m2!1ses!2ses!4v1486289823874" width="450" height="300" frameborder="0" style="border:0"></iframe>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="social">
+        <div class="container text-left">
+            <p>Síguenos también en...</p>       
+        </div>
+            <ul class="list-unstyled social-list">
+                <li><img src="img/facebook.png" alt="facebook"></li>
+                <li><img src="img/google_plus.png" alt="google_plus"></li>
+                <li><img src="img/twitter.png" alt="twitter"></li>
+                <li><img src="img/t.png" alt="instagram"></li>
+                <li><img src="img/youtube.png" alt="youtube"></li>
+                        
+            </ul>
+        <div class="container text-center foot">
+            <p>Copyright &copy; 2016 Biología Marina</p>       
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!----------mapa------------>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+    
+    <!-- javascript para el slider de imagenes-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
